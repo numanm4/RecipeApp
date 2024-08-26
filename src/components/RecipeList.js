@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/RecipeList.css';  
 
 function RecipeList({ recipes, onRecipeClick }) {
   return (

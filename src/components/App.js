@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <h1>Recipe Search Engine</h1>
-      <div>
+      <div className="search-container">
         <input
           type="text"
           placeholder="Enter ingredients separated by commas"
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
